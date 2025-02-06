@@ -14,59 +14,59 @@ public class PracticeProblem {
 	public static void q1() {
 		Scanner in = new Scanner(System.in);
 		String question1;
-		System.out.print("Input a word: ");
+		System.out.print("In: ");
 		question1 = in.nextLine();
-		System.out.println(question1 + "\n");	
+		System.out.println(question1);	
 	}
 
 	public static void q2() {
 		Scanner in = new Scanner(System.in);
 		int int1;
 		int int2;
-		System.out.print("Input an integer: ");
+		System.out.print("In: ");
 		int1 = in.nextInt();
 		in.nextLine();
-		System.out.print("Input another integer: ");
+		System.out.print("In: ");
 		int2 = in.nextInt();
 		in.nextLine();
-		System.out.println("The quotient of your two numbers is: " + (int1/int2));
-		System.out.println("The remainder of that quotient is: " + (int1%int2) + "\n");
+		System.out.println(int1/int2);
+		System.out.println(int1%int2);
 	}
 
 	public static void q3() {
 		Scanner in = new Scanner(System.in);
 		String question1;
-		System.out.print("Input a word: ");
+		System.out.print("In: ");
 		question1 = in.nextLine();
-		System.out.println(question1 + " was the text you wrote" + "\n");	
+		System.out.println(question1 + " was the text you wrote");	
 	}
 
 	public static void q4() {
 		Scanner in = new Scanner(System.in);
 		int int3;
-		System.out.print("Enter an integer: ");
+		System.out.print("In: ");
 		int3 = in.nextInt();
 		in.nextLine();
-		System.out.println("The integer you said, multiplied by 5, is: " + (int3 * 5) + "\n");
+		System.out.println(int3 * 5);
 		
 	}
 
 	public static void q5() {
 		Scanner in = new Scanner(System.in);
 		boolean boolean1;
-		System.out.print("Enter a boolean: ");
+		System.out.print("In: ");
 		boolean1 = in.nextBoolean();
 		in.nextLine();
-		System.out.println(boolean1 + " is a boolean" + "\n");
+		System.out.println(boolean1 + " is a boolean");
 	}
 
 	public static void q6() {
 		Scanner in = new Scanner(System.in);
 		double double1;
-		System.out.print("Enter a double: ");
+		System.out.print("In: ");
 		double1 = in.nextDouble();
 		in.nextLine();
-		System.out.println("The double you said, subtracted by 3.2, is: " + (double1 - 3.2) + "\n");
+		System.out.println(double1 - 3.2);
 	}
 
 }
